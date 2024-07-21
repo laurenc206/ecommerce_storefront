@@ -1,18 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Overview
 
+
 This is the storefront for my e-commerce project. Data is obtained by making API calls to the links shown on the dashboard pages. In the .env file of this project, you will need to save the base url of the dashboard followed by api/<store_id> so that the requests are made to the correct link. 
+
 
 You will want to launch the store first and save the link in the dashboard .env file in order for API calls to go through. 
 
+
 Check-out is done using Stripe API. To do a dummy order, use the card 4242 4242 4242 4242, expiration 12/34 and cvs 123. If an order is cancelled (user backs out of stripe before completing transaction) the transaction is saved in orders as unpaid.
+
 
 In the future updates I plan to add pagination to help with loading latency and inpmelement customer accounts, which will include creating customer profiles, storring previous orders and reviews. In order to remain consistent, this functionality will be implemented in the dashboard but data for the store will be obtained through API calls.
 
+
 I also plan to add inventory to the dashboard and enable multiple color and sizing options be applied to a single item. These changes will be done on the dashboard, however, the storefront will also need to be updated to display product options and quantities. 
 
+
 Please feel free to reach out to me at laurencavdev.com!
+
 
 ## Getting Started
 
