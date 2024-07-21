@@ -8,17 +8,25 @@ export interface Category {
     id: string;
     name: string;
     billboard: Billboard;
+    subcategories: Subcategory[]
 };
+
+export interface Subcategory {
+    id: string;
+    name: string;
+}
 
 export interface Product {
     id: string;
     category: Category;
+    subcategory: Subcategory;
     name: string;
     price: string;
     isFeatured: boolean;
-    size: Size;
-    color: Color;
+    size?: Size;
+    color?: Color;
     images: Image[];
+    description: string;
 };
 
 export interface Image {

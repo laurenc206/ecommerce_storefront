@@ -3,13 +3,13 @@
 import qs from "query-string";
 import { useRouter, useSearchParams } from "next/navigation";
 
-import { Color, Size } from "@/types";
+import { Color, Size, Subcategory } from "@/types";
 import Button from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 
 interface FilterProps {
-    data: (Size | Color)[];
+    data: (Size | Color | Subcategory)[];
     name: string;
     valueKey: string;
 }
@@ -24,7 +24,7 @@ const Filter: React.FC<FilterProps>= ({
 
     const selectedValue = searchParams.get(valueKey);
 
-    const onClick = (id: string) => {
+    const onClick = (id?: string) => {
         const current = qs.parse(searchParams.toString());
 
         const query = {
@@ -62,7 +62,7 @@ const Filter: React.FC<FilterProps>= ({
                         >
                             {filter.name}
                         </Button>
-                    </div>
+                    </div> 
                 ))}
             </div>
      

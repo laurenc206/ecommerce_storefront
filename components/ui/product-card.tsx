@@ -39,7 +39,7 @@ const ProductCard: React.FC<ProductCard> = ({
 
 
     return (
-        <div onClick={handleClick} className="bg-white group cursor-pointer rounded-xl border p-3 space-y-4">
+        <div onClick={handleClick} className="bg-white group cursor-pointer rounded-xl border p-3 space-y-3">
             {/* Images and Actions */}
             <div className="aspect-square rounded-xl bg-gray-100 relative">
                 <Image 
@@ -63,10 +63,10 @@ const ProductCard: React.FC<ProductCard> = ({
             </div>
             {/* Description */}
             <div>
-                <p className="font-semibold text-lg">
+                <p className="font-semibold text-lg capitalize">
                     {data?.name}
                 </p>
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-gray-500 ">
                     {data.category?.name}
                 </p>
             </div>
