@@ -20,9 +20,9 @@ Check-out is done using Stripe API. To do a dummy order, use the card 4242 4242 
 <br/>
 
 ## Future Versions
-In the future updates I plan to add pagination to help with loading latency and inpmelement customer accounts, which will include creating customer profiles, storring previous orders and reviews. In order to remain consistent, this functionality will be implemented in the dashboard but data for the store will be obtained through API calls.
+In the future updates I plan to add pagination to help with loading latency and customer accounts, which will include creating customer profiles, storring previous orders and customer reviews. In order to remain consistent, this data will be storred using the dashboard service and obtained through API calls made to the server running the dashboard.
 
-I also plan to add inventory to the dashboard and enable multiple color and sizing options be applied to a single item. These changes will be done on the dashboard, however, the storefront will also need to be updated to display product options and quantities. 
+I also plan to add inventory management and enable multiple color and sizing options be applied to a single item. These changes will be done on the dashboard, however, the storefront will also need to be updated to display product options and quantities. 
 
 <br/>
 
