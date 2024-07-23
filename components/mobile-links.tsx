@@ -19,6 +19,7 @@ const MobileLinks: React.FC<MobileLinks> = ({ data, className, ...props }) => {
         label: route.name,
         active: pathname === `/category/${route.id}`
     }))
+    //const routes = [{href: "/", label: "Featured", active: pathname === "/"}, ...data_routes]
   return (
     <div className="px-4 space-y-4">
         <div className="flex lg:ml-0 gap-x-2 items-center">
@@ -27,10 +28,10 @@ const MobileLinks: React.FC<MobileLinks> = ({ data, className, ...props }) => {
         </div>
 
         <nav className= "flex flex-col space-y-8">
-            <Link href="/" className={cn(
-                "text-sm font-semibold transition-colors hover:text-black uppercase",
-                
-                (pathname === "/") ? "text-black" : "text-neutral-500")}
+            <Link href="/" 
+                className={cn("text-sm font-semibold transition-colors hover:text-black uppercase",
+                           (pathname === "/") ? "text-black" : "text-neutral-500")}
+                {...props}
                 >
                 Featured
             </Link>
