@@ -9,9 +9,6 @@ import Button from "@/components/ui/button";
 import Currency from "@/components/ui/currency";
 import useCart from "@/hooks/use-cart";
 
-interface SummaryProps {
-
-}
 
 const Summary = () => {
     const searchParams = useSearchParams();
