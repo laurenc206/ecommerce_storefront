@@ -3,13 +3,11 @@
 
 This is the storefront for my e-commerce project. Data is obtained by making API calls to the links shown on the dashboard pages. In the .env file of this project, you will need to save the base url of the dashboard followed by api/<store_id> so that the requests are made to the correct link.
 
-You will want to launch the store first and save the link in the dashboard .env file in order for API calls to go through. 
-
 I started this project to challenge myself and to learn by working with some of the newest technologies in web app development. A majority of the work is in the dashboard part of this app. The main purpose of the storefront is to display the data that is managed in the dashboard. Check out the README in the [dashboard](https://github.com/laurenc206/ecommerce_dashboard) for more information on all the technologies I used and project details.
 
 <br/> 
 
-Please feel free to reach out to me at laurencavdev.com!
+Please feel free to reach out to me at laurencav.info!
 
 <br/>
 
@@ -45,6 +43,9 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 <br/> 
+
+<b>You will want to launch the store first and save the link in the dashboard .env file in order for API calls to go through. </b>
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
