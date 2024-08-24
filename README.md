@@ -5,7 +5,7 @@ This is the storefront for my e-commerce project. Data is obtained by making API
 
 A majority of the work for this project is done in the dashboard which is responsible for performing CRUD operations on the inventory displayed in the storefront. The main purpose of the storefront is to simply display the data that is managed in the dashboard and for users to place orders. Check out the README in the [dashboard](https://github.com/laurenc206/ecommerce_dashboard) for full project details and more information on the technologies used.
 
-<b>Please feel free to reach out to me at laurencav.info!</b><br><br>
+<b>Please feel free to reach out to me at laurendev.com!</b><br><br>
 
 
 ## Demo
