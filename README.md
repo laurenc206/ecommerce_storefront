@@ -9,7 +9,7 @@ A majority of the work for this project is done in the dashboard which is respon
 
 
 ## Demo
-To properly demo this project in it's entirity, I suggest you log-in to the dashboard using the account associated with this storefront. If you would like those credentials, contact me at laurendev.com. After logging into the dashboard, you will see the sotre details and inventory managed in the dashboard is displayed on the storefront at the link. All changes made in the dashboard will immediately be shown on the storefront as the storefront makes REST API calls to the dashboard links to retrieve current store information.<br>
+To properly demo this project in it's entirity, I suggest you log-in to the dashboard using the account associated with this storefront. If you would like those credentials, contact me at laurendev.com. After logging into the dashboard, you will see the store details and inventory managed in the dashboard is displayed on the storefront at the link. All changes made in the dashboard will immediately be shown on the storefront as the storefront makes REST API calls to the dashboard links to retrieve current store information.<br>
 
 You can also demo placing an order on the storefront. Once check-out is complete, the order details will be avaliable in the dashboard.  
 Check-out is done using Stripe API. To do a dummy order, use the card 4242 4242 4242 4242, expiration 12/34 and cvs 123. If an order is cancelled (user backs out of stripe before completing transaction) the transaction is saved in orders as unpaid on the dashboard.<br><br>
